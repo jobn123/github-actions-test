@@ -12,3 +12,9 @@ jobs:
         run: |
           node -v 
           npm -v
+      - name: python command
+        run: |
+          import platform
+          print(platform.processor())
+        # 选择使用哪种脚本
+        shell: python
