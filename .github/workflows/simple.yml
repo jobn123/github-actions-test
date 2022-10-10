@@ -20,6 +20,8 @@ jobs:
         shell: python
   run-windows-command:
     runs-on: windows-latest
+    # job默认是并行运行的，needs表示当运行完某个job才运行当前的job
+    needs: ["run-shell-command"]
     steps:
       - name: Directory PowerShell
         run: Get-Location
