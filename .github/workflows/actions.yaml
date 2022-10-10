@@ -7,6 +7,7 @@ on:
   pull_request:
     # 监听不同的状态
     types: [ closed, assigned, opened, reopened ]
+
 jobs: 
   run-github-actions:
     runs-on: ubuntu-latest
