@@ -3,10 +3,15 @@
 # on: [push, pull_request]
 
 on: 
-  schedule:
+  # repository_dispatch文档 https://docs.github.com/cn/actions/using-workflows/events-that-trigger-workflows#repository_dispatch
+  repository_dispatch:
+    # 自定义类型
+    types: [build]
+  # schedule:
     # 分钟 小时 几号 几月 哪天
     # https://crontab.guru/ cron工具
-    - cron: "5 * * * *" # 意味着每五分钟执行一次
+    # - cron: "5 * * * *" # 意味每小时的第五分钟执行
+    # - cron: "0/5 * * * *" # 意味着每五分钟执行一次
   # push:
   pull_request:
     # 监听不同的状态
