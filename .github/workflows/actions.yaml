@@ -3,7 +3,11 @@
 # on: [push, pull_request]
 
 on: 
-  push:
+  schedule:
+    # 分钟 小时 几号 几月 哪天
+    # https://crontab.guru/ cron工具
+    - cron: "5 * * * *" # 意味着每五分钟执行一次
+  # push:
   pull_request:
     # 监听不同的状态
     types: [ closed, assigned, opened, reopened ]
