@@ -8,5 +8,6 @@
  - [use needs condition](https://github.com/jobn123/github-actions-test/commit/439408eed9ffe03b3f773a829b6d1824acb95485)
  - [use simple aciton](https://github.com/jobn123/github-actions-test/tree/6855429c1c765563c72693502f2e3b1673ecb5f7)
  - [use checkout actions](https://github.com/jobn123/github-actions-test/commit/0c0a98c5b4cdb22d331c43a421fd3871edc71f8d)
- - [trigger workdlow with github evnet types](https://github.com/jobn123/github-actions-test/tree/d427d5207730913ad640a6041b3888027c1f37b6)
+ - [trigger workflow with github event types](https://github.com/jobn123/github-actions-test/tree/d427d5207730913ad640a6041b3888027c1f37b6)
  - [use cron](https://github.com/jobn123/github-actions-test/commit/223d549b6b1af19e6b02e3694f9e26737ed078c5)
+ - [use repostory_dispatch](https://github.com/jobn123/github-actions-test/commit/0d3ab682912ab94a43154e4d723d92b87cf815c9)
