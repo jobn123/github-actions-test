@@ -11,11 +11,11 @@ on:
       - "feature/*" # match feature/featA, feature/featB, dosn't match feature/feat/a 
       - "feature/**" # match feature/feat/a, feature/featA
       - "!feature/featC" # ignore feature/featC
-    # tags: 
-    #   - v1.*
-    # paths: 
-    #   - "**.js"
-      # - "!filenane.js" # ignore
+    tags: 
+      - v1.*
+    paths: 
+      - "**.js"
+      - "!filenane.js" # ignore
     # paths-ignore:
         # - 'docs/**'
   # repository_dispatch文档 https://docs.github.com/cn/actions/using-workflows/events-that-trigger-workflows#repository_dispatch
